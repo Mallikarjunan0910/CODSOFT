@@ -1,0 +1,164 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.nav{
+    display: flex;
+    text-align: center;
+    background-color: rgb(103, 237, 192);
+    height: 40px;
+    width: auto;
+    justify-content: space-between;
+}
+nav h2{
+    color: black;
+    padding-left: 100px;
+ padding-top: 5px;
+}
+
+
+nav ul li{
+  
+    display: inline-block;
+    align-items: center;
+    padding: 10px 20px;
+   
+} 
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: medium;
+}
+.profile_img img{
+    padding: 20px;
+    height: 400px;
+    width: auto;
+    border-radius: 3rem;
+}
+.profile h1{
+    color: black;
+    
+    padding-top: 100px;
+
+}
+
+.profile_content_color{
+color: blue;
+}
+nav ul li a:hover{
+    color:rgb(244, 25, 131);
+    transition: .4s;
+}
+.profile_img{
+    max-width: 90%;
+    display: flex;
+    text-align: start;
+    justify-content: center;
+}
+.about h1{
+    text-align: center;
+}
+.about p{
+     
+    font-size: 18px;
+    margin: 30px;
+}
+.experience h2{
+    margin-left: 40px;
+}
+.experience p{
+    margin: 40px;
+}
+.skillsec h1{
+    text-align: center;
+}
+.skillsec h2{
+     
+    margin: 30px;
+}
+.about{
+    background-color: rgb(206, 250, 235);
+} 
+.skillsec p{
+    margin: 30px;
+    font-size: 18px; 
+}
+.project {
+    text-align: center;
+}
+.box1 p{
+    margin: 30px;
+    background-color: rgb(245, 245, 171);
+    height: 250px;
+    width: 400px;
+    padding: 25px;
+    border-radius: 4rem;
+    padding-top: 25px;
+    display: flexbox;
+}
+.box2 p{
+    margin: 30px;
+    background-color: rgb(250, 172, 209);
+    height: 250px;
+    width: 400px;
+    padding: 25px;
+    border-radius: 4rem;
+    padding-top: 25px;
+
+}
+.boxline1{
+    display: flex;
+    justify-content: center;
+}
+.box3 p{
+    margin: 30px;
+    background-color: rgb(171, 245, 204);
+    height: 250px;
+    width: 400px;
+    padding: 25px;
+    border-radius: 4rem;
+    padding-top: 25px;
+    display: flexbox;
+}
+.box4 p{
+    margin: 30px;
+    background-color: rgb(248, 216, 148);
+    height: 250px;
+    width: 400px;
+    padding: 25px;
+    border-radius: 4rem;
+    padding-top: 25px;
+
+}
+.boxline2{
+    display: flex;  
+    justify-content: center;
+}
+
+.contactsec{
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+
+.contactsec h2 {    
+    color: #333;
+}
+
+.contactsec  p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+.contactsec  h1{
+    text-align: center;
+}
+
+.Resumepdf{
+text-align: center;
+}
+.pdf-resume p{
+    padding: 30px;
+}
